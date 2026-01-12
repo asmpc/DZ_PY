@@ -2,12 +2,12 @@
 # Задание 13.
 # Обратная раскодировка.
 
-# strd фвв str(input("Введите строку для раскодирования: "))
+# strd = str(input("Введите строку для раскодирования: "))
 # strd = strd.lower()
 # strdn = ""
 # cnt = ''
 #
-# for i in reversed(range(len(strd))):
+# for i in reversed(range(len(strd))):      # класс сложности - O(N)
 #     if strd[i].isdigit():
 #         cnt += str(strd[i])
 #     else:
@@ -15,6 +15,7 @@
 #         strdn += strd[i] * int(cnt)
 #         cnt = ''
 # print(f'Преобразуется в - {strdn[::-1]}')
+# max класс сложности - O(N)
 
 # Задачи на кортежи
 
